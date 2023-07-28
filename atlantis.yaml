@@ -1,7 +1,9 @@
 version: 3
+automerge: true
 projects:
   - name: my-proj
     dir: my-project
     autoplan:
       when_modified: ["*.tf"]
       enabled: true
+      
