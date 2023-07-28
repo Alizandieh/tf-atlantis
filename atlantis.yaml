@@ -6,3 +6,4 @@ projects:
     autoplan:
       when_modified: ["*.tf"]
       enabled: true
+      
