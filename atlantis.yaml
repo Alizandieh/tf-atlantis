@@ -6,4 +6,8 @@ projects:
     autoplan:
       when_modified: ["*.tf"]
       enabled: true
-      
+  - name: aws
+    dir: aws
+    autoplan:
+      when_modified: ["*.tf"]
+      enabled: true
